@@ -1,0 +1,35 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+#comentario-form {
+	width: 50%;
+	margin: 30px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#comentarios {
+	width: 50%;
+	margin: 30px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comentario {
+	margin-bottom: 20px;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.comentario .nombre {
+	font-weight: bold;
+}
+
+.comentario .texto {
+	margin-top: 10px;
+}

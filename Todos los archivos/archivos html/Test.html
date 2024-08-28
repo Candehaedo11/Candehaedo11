@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Test de Bienestar</title>
+	<link rel="stylesheet" href="../archivos css/Test.css">
+</head>
+<body>
+	<h1>Test de Bienestar</h1>
+	<form id="test-form">
+		<!-- Preguntas del test -->
+		<div class="pregunta">
+			<label>¿Cómo te sientes hoy?</label>
+			<input type="radio" name="pregunta1" value="Bien"> Bien
+			<input type="radio" name="pregunta1" value="Regular"> Regular
+			<input type="radio" name="pregunta1" value="Mal"> Mal
+		</div>
+		<div class="pregunta">
+			<label>¿Cuántas horas duermes por noche?</label>
+			<input type="radio" name="pregunta2" value="Menos de 5 horas"> Menos de 5 horas
+			<input type="radio" name="pregunta2" value="5-7 horas"> 5-7 horas
+			<input type="radio" name="pregunta2" value="Más de 7 horas"> Más de 7 horas
+		</div>
+		<div class="pregunta">
+			<label>¿Te sientes abrumado o estresado con frecuencia?</label>
+			<input type="radio" name="pregunta3" value="Sí">Sí
+			<input type="radio" name="pregunta3" value="No">No
+		</div>
+		<div class="pregunta">
+			<label>¿Has experimentado algún evento traumático en el pasado?</label>
+			<input type="radio" name="pregunta4" value="Sí">Sí
+			<input type="radio" name="pregunta4" value="No">No
+		</div>
+		<div class="pregunta">
+			<label>¿Has experimentado ansiedad, depreción o miedo quizás?</label>
+			<input type="radio" name="pregunta5" value="Solo ansiedad">Solo ansiedad
+			<input type="radio" name="pregunta5" value="Solo depreción">Solo depreción
+			<input type="radio" name="pregunta5" value="Ansiedad y miedo">Ansiedad y miedo
+			<input type="radio" name="pregunta5" value="No, ninguna">No, ninguna
+		</div>	
+		<div class="pregunta">
+			<label>¿Tienes problemas con la integración a la sociedad?</label>
+			<input type="radio" name="pregunta6" value="Sí, a veces">Sí, a veces
+			<input type="radio" name="pregunta6" value="Sí, todo el tiempo">Sí, todo el tiempo
+			<input type="radio" name="pregunta6" value="No, nunca">No, nunca
+		</div>
+		<div class="pregunta">
+			<label>¿Tienes dificultades para dormir?</label>
+			<input type="radio" name="pregunta7" value="Sí, a veces">Sí, a veces
+			<input type="radio" name="pregunta7" value="Sí, todo el tiempo">Sí, todo el tiempo
+			<input type="radio" name="pregunta7" value="No, nunca">No, nunca
+		</div>
+		
+<!-- Resultados del test -->
+<div id="resultados"></div>
+<!-- Botón para enviar el test -->
+<br>
+<button id="enviar-test">Enviar test</button>
+</form>
+<script src="../archivos js/Test.js"></script>
+</body>
+</html>

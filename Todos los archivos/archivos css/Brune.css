@@ -1,0 +1,42 @@
+/* Abecedario */
+
+/* estilos */
+
+body{
+    background-color: rgb(250, 103, 181);
+}
+
+h1{
+    font-size: 45px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 25px;
+}
+
+.abecedario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.letra{
+    width: 50px;/*Ancho del botón*/
+    height: 50px;/*Alto del botón*/
+    font-size: 24px;/*Tamaño de la fuente*/
+    font-weight: bold;/*Negrita*/
+    border: none;/*Sin bordes*/
+    border-radius: 5px;/*Forma del botón*/
+    background-color: pink;/*Color del botón*/
+    color: #333;/*Color del texto*/
+    margin: 5px;/*Espacio entre botones*/
+    cursor: pointer;/*Cursor en forma de mano*/
+}
+
+.letra:hover{
+    background-color: #ccc;/*Color de fondo al pasar el cursor*/ 
+}
