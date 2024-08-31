@@ -32,7 +32,7 @@ input[type="radio"] {
 	background-color: #f9f9f9;
 }
 
-#enviar-test {
+button[type="submit"] {
 	background-color: #4CAF50;
 	color: #fff;
 	padding: 10px 20px;
@@ -41,6 +41,6 @@ input[type="radio"] {
 	cursor: pointer;
 }
 
-#enviar-test:hover {
-	background-color: #3e8e41;
+button[type="submit"]:hover {
+	background-color: crimson;
 }
