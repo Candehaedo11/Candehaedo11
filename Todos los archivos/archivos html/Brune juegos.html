@@ -3,54 +3,93 @@
 <head>
 	<title>Adivina el animal</title>
 	<link rel="stylesheet" href="../archivos css/Brune juegos.css">
+
+	<!--Icono-->
+    <link rel="icon" type="image/x-icon" href="C:\Users\estudiante\Downloads\B.jpeg">
+
 	<style> /*Estilos de CSS*/
-		body {
-	background-color: pink;
-}
+	body {
+		background-color: rgb(250, 103, 181);
+    }
 
-#animal {
-	width: 250px;
-	height: 200px;
-	margin: 20px;
-}
+    #animal {
+	    width: 250px;
+	    height: 200px;
+	    margin: 20px;
+    }
 
-#pregunta {
-	font-size: 24px;
-	margin-bottom: 20px;
-}
+    #pregunta1, #pregunta2, #pregunta3, #pregunta4 {
+	    font-size: 30px;
+	    margin-bottom: 20px;
+    }
 
-#btn-1, #btn-2, #btn-3 {
+	h1 {
+		font-size: 60px;
+	}
+
+#btn-1-1, #btn-1-2, #btn-1-3 {
 	background-color: #4CAF50;
 	color: #fff;
-	padding: 10px 20px;
+	font-size: 20px;
+	padding: 20px 40px;
 	margin: 10px;
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
 }
 
-#btn-1:hover, #btn-2:hover, #btn-3:hover {
-	background-color: #3e8e41;
+#btn-1-1:hover, #btn-1-2:hover, #btn-1-3:hover {
+	background-color: crimson;
 }
 
-#btn-4, #btn-5, #btn-6 {
+#btn-2-1, #btn-2-2, #btn-2-3 {
     background-color: #4CAF50;
     color: #fff;
-    padding: 10px 20px;
+	font-size: 20px;
+    padding: 20px 40px;
     margin: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-#btn-4:hover, #btn-5:hover, #btn-6:hover {
-    background-color: #3e8e41;
+#btn-2-1:hover, #btn-2-2:hover, #btn-2-3:hover {
+    background-color: crimson;
 }
 
-#resultado {
-	font-size: 24px;
-	color: #666;
-	margin-top: 20px;
+#btn-3-1, #btn-3-2, #btn-3-3 {
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 40px;
+	margin: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#btn-3-1:hover, #btn-3-2:hover, #btn-3-3:hover {
+	background-color: crimson;
+}
+
+#btn-4-1, #btn-4-2, #btn-4-3 {
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 20px;
+	padding: 20px 40px;
+	margin: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#btn-4-1:hover, #btn-4-2:hover, #btn-4-3:hover {
+	background-color: crimson;
+}
+
+#resultado1, #resultado2, #resultado3, #resultado4 {
+	color: black;
+	font-size: 40px;
 }
 
 	</style>
@@ -59,21 +98,21 @@
 	<h1>Adivina el animal</h1>
     <!--Juego Brune-->
     <p id="pregunta1">1-¿Cuál animal es?</p>
-<img id="animal1" src="C:\Users\estudiante\Downloads\Gato.jpeg" alt="Animal"><br>
+<img id="animal1" src="C:\Users\estudiante\Downloads\Gato.jpeg" height="300" width="400" alt="Animal"><br>
 <button id="btn-1-1">Perro</button>
 <button id="btn-1-2">Gato</button>
 <button id="btn-1-3">Elefante</button>
 <p id="resultado1"></p>
 
 <p id="pregunta2">2-¿Cuál animal es?</p>
-<img id="animal2" src="C:\Users\estudiante\Downloads\th.jpeg" alt="Animal"><br>
+<img id="animal2" src="C:\Users\estudiante\Downloads\th.jpeg" height="300" width="400" alt="Animal"><br>
 <button id="btn-2-1">Gallina</button>
 <button id="btn-2-2">Chancho</button>
 <button id="btn-2-3">Pato</button>
 <p id="resultado2"></p>
 
 <p id="pregunta3">3-¿Cuál animal es?</p>
-<img id="animal3" src="C:\Users\estudiante\Downloads\Perro.jpeg" alt="Animal"><br>
+<img id="animal3" src="C:\Users\estudiante\Downloads\Perro.jpeg" height="350" width="400" alt="Animal"><br>
 <button id="btn-3-1">Chivo</button>
 <button id="btn-3-2">Burro</button>
 <button id="btn-3-3">Perro</button>
