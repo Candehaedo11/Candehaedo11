@@ -1,9 +1,3 @@
-/* Inicio */
-
-.textorojo {
-    color: red;
-}
-
 /* Probando */
 
 #signup-btn {
@@ -21,41 +15,16 @@
 #signup-btn:hover {
 	background-color: #3e8e41;
 }
+
 body {
 	font-family: Arial, sans-serif;
+	background-color: white;
 }
 
-#signup-form {
-	width: 50%;
-	margin: 40px auto;
-	padding: 20px;
-	border: 1px solid #ccc;
-	border-radius: 10px;
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.textoRojo {
+	color: red;
 }
 
-#signup-form label {
-	display: block;
-	margin-bottom: 10px;
-}
-
-#signup-form input {
-	width: 100%;
-	height: 40px;
-	margin-bottom: 20px;
-	padding: 10px;
-	border: 1px solid #ccc;
-	border-radius: 5px;
-}
-#signup-btn {
-	background-color: #4CAF50;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-#signup-btn:hover {
-	background-color: #3e8e41;
+img {
+	border-radius: 20px 20px 20px 20px;
 }
