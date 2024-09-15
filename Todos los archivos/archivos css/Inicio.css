@@ -1,21 +1,5 @@
 /* Probando */
 
-#signup-btn {
-	position: absolute;
-	top: 20px;
-	right: 20px;
-	background-color: #4CAF50;
-	color: #fff;
-	padding: 10px 20px;
-	border: none;
-	border-radius: 5px;
-	cursor: pointer;
-}
-
-#signup-btn:hover {
-	background-color: #3e8e41;
-}
-
 body {
 	font-family: Arial, sans-serif;
 	background-color: white;
@@ -23,8 +7,4 @@ body {
 
 .textoRojo {
 	color: red;
-}
-
-img {
-	border-radius: 20px 20px 20px 20px;
 }
